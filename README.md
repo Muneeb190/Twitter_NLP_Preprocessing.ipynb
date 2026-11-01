@@ -89,26 +89,6 @@ These are kept because they often reverse sentiment polarity. Tokens of length â
 
 ---
 
-## Requirements
-
-```text
-pandas
-numpy
-matplotlib
-nltk
-NLTK resources downloaded by the notebook (safe to re-run):
-punkt
-punkt_tab
-stopwords
-wordnet
-omw-1.4
-How to Run
-Place twitter_training.csv in the same directory as the notebook (or set DATA_PATH in the load cell).
-Open Twitter_NLP_Preprocessing.ipynb in Jupyter, VS Code, or Google Colab.
-Run all cells in order.
-Find the result at twitter_training_preprocessed.csv.
-Example load path (edit if needed):PythonDATA_PATH = "twitter_training.csv"Example Workflow SnapshotTypical shapes reported in the notebook run:
-
 
 
 
